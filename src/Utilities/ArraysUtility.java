@@ -188,4 +188,14 @@ public class ArraysUtility {
         return false;
     }
 
+    public static int[] removeElement(int[] array, int elementIndex){
+
+        int [] newArray = Arrays.copyOf(array, array.length-1);
+
+        for (int i = elementIndex + 1; i < array.length; i++) {
+            newArray[i - 1] = array[i];
+        }
+        return newArray;
+    }
+
 }
