@@ -18,7 +18,7 @@ public class TestDogObjects {
 
         Dog dog2 = new Dog();
 
-        dog2.setInfo("Max","Labrador","Medium",'M',3,"Brown");
+        dog2.setInfo("Max","Labrador",'M','M',"Large","Brown");
 
         System.out.println(dog1);
 
