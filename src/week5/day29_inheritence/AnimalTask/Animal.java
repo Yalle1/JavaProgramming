@@ -12,7 +12,7 @@ public class Animal {
         isAnimal = true;
     }
 
-    public void setInfo(String name, String breed, String color, String size, char gender, int age) {
+    public Animal(String name, String breed, String color, String size, char gender, int age) {
         this.name = name;
         this.breed = breed;
         this.color = color;
