@@ -1,8 +1,21 @@
 package week5.day33_abstraction.EmployeeTask;
 
 public class Developer extends Employee{
-    public Developer(String name, String jobTitle, String id, String age, char gender, double salary) {
-        super(name, jobTitle, id, age, gender, salary);
+
+    private String programmingLanguage;
+
+
+    public Developer(String name, int age, char gender, String id, String jobTitle, double salary, String programmingLanguage) {
+        super(name, age, gender, id, jobTitle, salary);
+        setProgrammingLanguage(programmingLanguage);
+    }
+
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
+
+    public void setProgrammingLanguage(String programmingLanguage) {
+        this.programmingLanguage = programmingLanguage;
     }
 
     @Override

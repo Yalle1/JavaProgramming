@@ -1,8 +1,10 @@
 package week5.day33_abstraction.EmployeeTask;
 
 public class Tester extends Employee{
-    public Tester(String name, String jobTitle, String id, String age, char gender, double salary) {
-        super(name, jobTitle, id, age, gender, salary);
+
+
+    public Tester(String name, int age, char gender, String id, String jobTitle, double salary) {
+        super(name, age, gender, id, jobTitle, salary);
     }
 
     @Override

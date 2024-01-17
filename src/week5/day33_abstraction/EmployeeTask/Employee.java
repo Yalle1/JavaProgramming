@@ -5,11 +5,11 @@ import week1.day03_variables.PrimitiveDataTypesIntro;
 public abstract class Employee {
 
     private String name, jobTitle, id;
-    private String age;
+    private int age;
     private char gender;
     private double salary;
 
-    public Employee(String name, String jobTitle, String id, String age, char gender, double salary) {
+    public Employee(String name, int age, char gender, String id, String jobTitle, double salary) {
         setName(name);
         setJobTitle(jobTitle);
         setId(id);
@@ -42,11 +42,11 @@ public abstract class Employee {
         this.id = id;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
