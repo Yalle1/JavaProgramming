@@ -17,7 +17,9 @@ public class MapMethods {
         employees.put(573,"Ahmed");
 
         System.out.println(employees.size());
-        System.out.println();
+        System.out.println(employees.get(123));
+
+
 
 
 
